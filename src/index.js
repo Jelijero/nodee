@@ -4,9 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function functioncomponent(){
+  return (
+    <div>
+      <h1>
+        this is bhavi
+      </h1>
+      <my componrnt/>
+    </div>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <functioncomponent />
     <App />
   </React.StrictMode>
 );
