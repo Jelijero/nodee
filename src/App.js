@@ -17,6 +17,7 @@ function App() {
            <button type="button" onclick="myFunfor3rd()">3rd</button>
            <button type="button" onclick="myFunfor4th()">4th</button>
     <div class="pic">
+    <br/>
     <img src={image} alt="panda" title="panda" />
     
     </div>
