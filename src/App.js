@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import image from './logo.jpg';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
            <button type="button" onclick="myFunfor3rd()">3rd</button>
            <button type="button" onclick="myFunfor4th()">4th</button>
     <div class="pic">
+    <img src={image} alt="panda" title="panda" />
     
     </div>
     <h2><b>HTML TAGS</b></h2>
